@@ -1,0 +1,126 @@
+<! DOCTYPE html>
+
+<html>
+<head>
+<title>KANG Sign Up</title>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="styles/s_sign_up.css">
+</head>
+
+<body>
+	<marquee> Welcome to our KANG E-learning System</marquee>
+
+	<h1 id="head">Student Sign-up Form</h1>
+	<div class="sub_form">
+		<h2>Please fill the information for signing up your Student
+			account</h2>
+		<span>* All fields are required.</span><br>
+		<br>
+		<form action="Add_Student_Servlet" method="post">
+			<div id="tname">
+				<table>
+					<tr>
+						<td><label> Student_Id* :</label></td>
+						<td><label> Password* :</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="uname" id="uname" class="name"
+							max="25" placeholder="Create your 6 number ID here"
+							pattern="[0-9]{6}" title="[0-9]{6}" required></td>
+						<td><input type="password" name="pswd" id="pswd" class="name"
+							max="25" placeholder="Create your password here"
+							pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+							title="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></td>
+					</tr>
+					<tr>
+						<td><label> First Name* :</label></td>
+						<td><label> Last Name* :</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="fname" id="fname" class="name"
+							max="25" placeholder="Enter your first name" required></td>
+						<td><input type="text" name="lname" id="lname" class="name"
+							max="25" placeholder="Enter your last name" required></td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td><label>Course* :</label><br></td>
+					</tr>
+					<tr>
+						<td><select id="course" name="course" required>
+								<option value="">Select Your course</option>
+								<option name="course" value="html">Web
+									Development(1-HTML)</option>
+								<option name="course" value="css">Web
+									Development(2-CSS)</option>
+								<option name="course" value="js">Web
+									Development(3-JavaScript)</option>
+								<option name="course" value="javaee">Java EE</option>
+								<option name="course" value="jq">J Query</option>
+								<option name="course" value="cs">C Sharp</option>
+								<option name="course" value="python">Python</option>
+								<option name="course" value="politics">Politics</option>
+						</select></td>
+					</tr>
+				</table>
+				<br>
+
+			</div>
+			<label> Gender* :</label><br> <input type="radio" name="gender"
+				id="gender" value="Male" required> Male <input type="radio"
+				name="gender" id="gender" value="Female" required> Female <input
+				type="radio" name="gender" id="gender" value="Other" required>
+			Other<br>
+			<br>
+			<table>
+				<tr>
+					<td><label> Date of Birth* :</label><br></td>
+					<td><label>Merital Status* :</label><br></td>
+				</tr>
+				<tr>
+					<td><input type="date" name="dob" id="dob" max="2017-12-31"
+						min="1960-01-01" required></td>
+					<td><select id="ms" name="ms" required>
+							<option value="">Select an option</option>
+							<option name="ms" value="Single">Single</option>
+							<option name="ms" value="Married">Married</option>
+							<option name="ms" value="In a relationship">In a
+								relationship</option>
+							<option name="ms" value="Divorced">Divorced</option>
+					</select></td>
+				</tr>
+			</table>
+			<br>
+
+			<table>
+				<tr>
+					<td><label> Email* :</label></td>
+					<td><label> Phone number* :</label></td>
+				</tr>
+				<tr>
+					<td><input type="Email" name="mail" id="mail" class="name"
+						pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+						placeholder="Enter your email address" required></td>
+					<td><input type="text" name="mnumber" id="mnumber"
+						class="name" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+						placeholder="Enter your phone number" required> <span
+						class="note">//Format: 123-456-7890</span></td>
+				</tr>
+			</table>
+			<br>
+			</table>
+			<br>
+			<br> <input type="submit" class="sub" value="Sign-Up">
+
+		</form>
+	</div>
+<body>
+
+	<footer>
+		<a href="#top" class="sign_in"><h2 id="btt">Back to Top</h2></a>
+		<h2>E-Learning System</h2>
+		<h2>Copyright&copy;by KANG Group #5 2020</h2>
+	</footer>
+</html>

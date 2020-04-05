@@ -1,0 +1,203 @@
+marquee {
+	background-color: #1052A0;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	padding: 0.5% 0%;
+	margin-bottom: 0.2%;
+	font-family: 'Martel', serif;
+}
+
+#nav {
+	margin-left: 30%;
+	width: 50%;
+}
+
+#nav td {
+	cursor: pointer;
+}
+
+body {
+	background-image: linear-gradient(rgba(141, 153, 174, 0.8),
+		rgba(141, 153, 174, 0.5)), url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#head {
+	font-family: "Seaweed Script";
+	text-align: center;
+	color: white;
+}
+
+#hnav {
+	font-family: "Seaweed Script";
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #1052A0;
+	opacity: 0.9;
+	text-align: center;
+}
+
+#hnav a {
+	font-size: 20px;
+	padding: 15px;
+	background-color: aqua;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+	margin: 0 15px;
+}
+
+#hnav a:hover {
+	background-color: #80ffff;
+}
+
+a {
+	color: black
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	top: 0;
+	font-size: 30px;
+	color: white;
+	background-color: #1052A0;
+	opacity: 0.9;
+	margin: 1% 15%;
+	border-radius: 4px;
+}
+
+h2 {
+	text-align: center;
+	padding: 4px;
+}
+
+#homep {
+	font-size: 27px;
+	background: #1052A0;
+	opacity: 0.9;
+	padding: 20px;
+	border-radius: 7px;
+}
+
+#table {
+	width: 90%;
+	margin: auto;
+	color: white;
+	font-size: 18px;
+	padding: 1%;
+	border-radius: 2%;
+	margin: 50px 0px 0px 30px;
+}
+
+#table:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.limg {
+	width: 300px;
+	border-radius: 50px;
+}
+
+label {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#sub_form {
+	margin-left: 10%;
+}
+
+#sub {
+	padding: 7px;
+	border-radius: 3px;
+}
+
+.sign_in {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sign_in:visited {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sign_in:hover {
+	color: #ff0000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#btt {
+	background-color: #ff0000;
+}
+
+#btt:hover {
+	background-color: #1052A0;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #333;
+	color: white;
+	margin: 5% 0 0 0;
+}
+
+#nav td, #nav th {
+	border: 1px solid #000000;
+	font-size: 20px;
+	padding: 15px 80px;
+	text-align: center;
+	color: #000000;
+}
+
+#nav tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+#nav tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+#nav tr:hover {
+	background-color: #ddd;
+}
+
+#nav tr td:first-child {
+	background-color: #82efff;
+	font-weight: bold;
+}
+
+#nav tr td:last-child {
+	background-color: #82efff;
+}
+
+#nav th {
+	font-size: 32px;
+	padding: 25px 80px;
+	text-align: center;
+	background-color: #00ffff;
+	color: #000000;
+}
+
+button {
+	padding: 10px;
+	border-radius: 2px;
+	position: relative;
+	bottom: 180px;
+	left: 955px;
+}

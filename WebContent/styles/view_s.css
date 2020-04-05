@@ -1,0 +1,114 @@
+marquee {
+	background-color: #1052A0;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	padding: 0.5% 0%;
+	margin-bottom: 0.2%;
+	font-family: 'Martel', serif;
+}
+
+body {
+	background-image: linear-gradient(rgba(141, 153, 174, 0.8),
+		rgba(141, 153, 174, 0.5)), url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#head {
+	font-family: "Seaweed Script";
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	top: 0;
+	font-size: 30px;
+	color: white;
+	background-color: #1052A0;
+	opacity: 0.9;
+	margin: 1% 15%;
+	border-radius: 4px;
+}
+
+h1 a {
+	text-decoration: none;
+	color: blue;
+	padding: 5px;
+	border-radius: 10px;
+	background: lightyellow;
+}
+
+h1 a:hover {
+	color: red;
+}
+
+table {
+	width: 100%;
+	background-color: #1052A0;
+}
+
+td, th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #1052A0;
+	color: white;
+}
+
+.sign_in {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sign_in:visited {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sign_in:hover {
+	color: #ff0000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#btt {
+	background-color: #ff0000;
+	margin: 0;
+}
+
+#btt:hover {
+	background-color: #1052A0;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #333;
+	color: white;
+	margin: 5% 0 0 0;
+	position: relative;
+	bottom: 0;
+}

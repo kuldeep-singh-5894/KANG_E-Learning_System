@@ -1,0 +1,125 @@
+marquee {
+	background-color: #1052A0;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	padding: 0.5% 0%;
+	margin-bottom: 0.2%;
+	font-family: 'Martel', serif;
+}
+
+body {
+	background-image: linear-gradient(rgba(141, 153, 174, 0.8),
+		rgba(141, 153, 174, 0.5)), url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#head {
+	font-family: "Seaweed Script";
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	top: 0;
+	font-size: 30px;
+	color: white;
+	background-color: #1052A0;
+	opacity: 0.9;
+	margin: 1% 15%;
+	border-radius: 4px;
+}
+
+h2 {
+	text-align: center;
+	padding: 2px;
+}
+
+.sub_form {
+	background: #1052A0;
+	width: 60%;
+	margin: auto;
+	color: white;
+	font-size: 18px;
+	padding: 1%;
+	border-radius: 2%;
+}
+
+#sub_form {
+	margin-left: 10%;
+}
+
+label {
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+
+td {
+	padding: 7px;
+}
+
+tr {
+	text-align: center;
+}
+
+.name {
+	width: 175px;
+	border: none;
+	border-radius: 3px;
+	padding: 7px;
+}
+
+.sub {
+	padding: 7px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.sub:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.note {
+	color: white;
+	font-style: italic;
+}
+
+#btt {
+	background-color: #ff0000;
+}
+
+#btt:hover {
+	background-color: #1052A0;
+}
+
+.sign_in {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sign_in:visited {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sign_in:hover {
+	color: #ff0000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	background-color: #333;
+	color: white;
+	margin: 5% 0 0 0;
+}
